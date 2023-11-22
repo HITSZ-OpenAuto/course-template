@@ -5,6 +5,7 @@
 > 2. 请根据课程的具体内容增删仓库的子文件夹。子文件夹建议使用小写英文，并且添加 README.md。
 > 3. 关于课程的描述可以不止以下几个方面，酌情增删。
 > 4. 完成一个课程仓库的搭建后，请移除各子文件夹下所有的**引用**，包括本段落。
+> 5. 当 hoa.moe 生成本课程对应页面后，请将页面链接复制到 GitHub 仓库的 About/Website 中。
 
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E8%AF%95%E8%AF%BE-red)
 ![Static Badge](https://img.shields.io/badge/%E8%80%83%E6%9F%A5%E8%AF%BE-green)
