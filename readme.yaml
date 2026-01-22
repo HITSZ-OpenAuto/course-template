@@ -18,19 +18,24 @@ lecturers:
       - content: "对实验要求很高，不建议混日子。"
         # 匿名提交示例：name 为空或填"匿名"，link 为空
         author:
-          name: "" 
+          name: ""
           link: ""
 
 # 教材与参考书
 textbooks:
   - title: "Database System Concepts"
-    authors: "Abraham Silberschatz / Henry F. Korth / S. Sudarshan"
+    authors:
+      - "Abraham Silberschatz"
+      - "Henry F. Korth"
+      - "S. Sudarshan"
     publisher: "McGraw-Hill"
     edition: "7th Edition"
-    type: "textbook"  # textbook (教材) / reference (参考书)
+    type: "textbook" # textbook (教材) / reference (参考书)
 
   - title: "数据库系统概论"
-    authors: "王珊 / 萨师煊"
+    authors:
+      - "王珊"
+      - "萨师煊"
     publisher: "高等教育出版社"
     edition: "第 5 版"
     type: "reference"
@@ -79,4 +84,3 @@ misc:
     author:
       name: ""
       link: ""
-"""
