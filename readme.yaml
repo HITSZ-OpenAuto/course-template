@@ -1,97 +1,82 @@
 course_name: "数据库系统"
-course_code: "COMP3010"
+repo_name: "COMP3010"
 
-# 注意事项：放在 README 最显眼位置，支持多行
-notices: |
+description: |
   本课程从 18 级开始题目风格大改，请务必参考最新年份的回忆录。
   实验部分严禁抄袭，会有查重。
 
-# 分数构成：按年份记录
-grading:
-  2024: "2次作业(20%) + 2次实验(30%) + 期末考试(50%)"
-  2023: "3次作业(10%) + 实验(40%) + 期末考试(50%)"
-
 # 授课教师
-teachers:
+lecturers:
   - name: "张晓峰"
     reviews:
       - content: |
           老师有工业界背景，出的题常常让学生们摸不着头脑。
           但是讲课非常细致，能够学到很多底层逻辑。
-        submitter:
+        author:
           name: "19级某学长"
           link: "https://github.com/example-senior"
       - content: "对实验要求很高，不建议混日子。"
         # 匿名提交示例：name 为空或填"匿名"，link 为空
-        submitter:
+        author:
           name: "" 
           link: ""
 
 # 教材与参考书
 textbooks:
   - title: "Database System Concepts"
-    author: "Abraham Silberschatz / Henry F. Korth / S. Sudarshan"
+    authors: "Abraham Silberschatz / Henry F. Korth / S. Sudarshan"
     publisher: "McGraw-Hill"
     edition: "7th Edition"
     type: "textbook"  # textbook (教材) / reference (参考书)
-    submitter:
-      name: "admin"
-      link: "https://blog.example.com"
+
   - title: "数据库系统概论"
-    author: "王珊 / 萨师煊"
+    authors: "王珊 / 萨师煊"
     publisher: "高等教育出版社"
     edition: "第 5 版"
     type: "reference"
-    submitter:
-      name: "20级学生"
-      link: ""
 
 # 网课推荐
 online_resources:
   - title: "CMU 15-445/645 (Intro to Database Systems)"
     url: "https://15445.courses.cs.cmu.edu/"
     description: "数据库领域神课，建议刷完所有 Lab。"
-    submitter:
+    author:
       name: "匿名"
       link: ""
 
-# 核心课程评价区块
-about_course:
+# 课程介绍
+course:
   - content: "这门课主要讲解关系型数据库、SQL语句以及索引优化。"
-    submitter:
+    author:
       name: "admin"
       link: ""
 
-about_exam:
+# 考试评价
+exam:
   - content: "考试开放性题很多，需要对概念有极清晰的理解。"
-    submitter:
+    author:
       name: "某个不愿透露姓名的同学"
       link: "https://github.com/anonymous"
 
-study_advice:
+# 实验评价
+advice:
   - content: "建议提前预习 B 站的 CMU 15-445 课程。"
-    submitter:
+    author:
       name: "小明"
       link: "https://xm-blog.com"
 
 # 课程安排
 schedule:
   - content: "共 16 周，每周 4 学时，含 2 节实验课。"
-    submitter:
-      name: "教务处"
-      link: ""
 
 # 相关链接
-related_links:
+links:
   - content: "https://github.com/HITSZ-OpenAuto/COMP3010"
-    submitter:
-      name: "维护者"
-      link: "https://github.com/maintainer"
 
 # 兜底板块：放置无法归类的杂项信息
 misc:
   - content: "每年的实验环境可能会变，建议关注群通知。"
-    submitter:
+    author:
       name: ""
       link: ""
 """
